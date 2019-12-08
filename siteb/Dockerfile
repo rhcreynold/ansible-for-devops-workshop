@@ -1,4 +1,4 @@
-FROM rhscl/httpd-24-rhel7
+FROM registry.access.redhat.com/rhscl/httpd-24-rhel7
 USER root
 MAINTAINER creynold@redhat.com
 ADD httpd.conf /etc/httpd/conf
