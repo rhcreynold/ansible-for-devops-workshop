@@ -13,5 +13,5 @@
         name: nginx-lb
         image: quay.io/creynold/ansible-for-devops-nginx-lb
         ports:
-          - "8081:80"
+          - "8081:8081"
         restart_policy: always
