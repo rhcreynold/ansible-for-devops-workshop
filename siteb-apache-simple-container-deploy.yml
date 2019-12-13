@@ -5,9 +5,9 @@
 
 
   tasks:
-  - name: install docker-py preqequisities
+  - name: install docker preqequisities
     pip:
-      name: docker-py
+      name: docker
 
 
   - name: launch the apache-simple container on the site-b nodes
