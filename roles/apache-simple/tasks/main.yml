@@ -20,7 +20,7 @@
 - name: Ensure latest httpd.conf file is present for Container
   template:
     src: httpd.conf.j2
-    dest: /home/student1/playbook/apache-simple/httpd.conf
+    dest: /home/student1/ansible-for-devops-workshop/siteb/etc/httpd/conf/httpd.conf
   tags:
      - container
 
@@ -34,7 +34,7 @@
 - name: Ensure latest index.html file is present for Container
   template:
     src: index.html.j2
-    dest: /home/student1/playbook/apache-simple/index.html
+    dest: /home/student1/ansible-for-devops-workshop/siteb/var/www/html/index.html
   tags:
      - container
 
