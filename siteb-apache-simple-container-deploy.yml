@@ -15,4 +15,4 @@
       name: apache-simple
       image: quay.io/creynold/ansible-for-devops-siteb
       ports:
-        - "8080:80"
+        - "8080:8080"
