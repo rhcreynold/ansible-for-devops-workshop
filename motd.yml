@@ -1,7 +1,7 @@
 ---
 - name: Deploy site web infrastructure
-  hosts: sitea
+  hosts: all
   become: yes
 
   roles:
-    - apache-simple
+    - jtyr.motd
